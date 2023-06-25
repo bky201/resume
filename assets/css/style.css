@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+.col-2 {
+    max-width: 10%;
+}
+
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
@@ -38,24 +42,16 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-
-.row-table {
-    display: table;
+.ui-menu-color-github {
+    background-color: #1c4a6c;
 }
 
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
+
+
 
 
 
@@ -82,6 +78,17 @@ h4 {
     display: inline-block;
 }
 
+.row-table {
+    display: table;
+}
+
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 
 /*--------------------------------------------Heading*/
@@ -239,9 +246,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.col-2 {
-    max-width: 10%;
-}
+
 
 /* ----------------------------------------Personal Info */
 
@@ -372,6 +377,11 @@ button[type="submit"] {
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
+    .section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
     .center-form {
         padding-top: 30px;
         min-height: 240px;
