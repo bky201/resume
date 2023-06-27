@@ -28,7 +28,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: #7395d3;
+    background-color: rgb(115, 149, 211);
 }
 
 .ui-menu-color-contact {
@@ -185,7 +185,7 @@ div#map {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(175, 233, 100, 0.4);
+    background: rgba(171, 237, 241, 1);
     width: 100%;
     height: 100%;
     border-radius: 50%;
