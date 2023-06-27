@@ -28,7 +28,7 @@
 }
 
 .ui-menu-color-resume {
-    background-color: rgb(115, 149, 211);
+    background-color: #7395d3;
 }
 
 .ui-menu-color-contact {
@@ -164,7 +164,7 @@ header {
     padding-top: 22px;
     display: block;
     color: #ffc107;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .menuitem span {
@@ -174,18 +174,18 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 2px;
 }
 
-div#map {
+div #map {
     min-height: 360px;
 }
 
-/*--------------------------------------------Hover.css*/
+/*----------------------------------171, 237, 241----------Hover.css*/
 
-.hvr-sweep-to-bottom:before {
-    background: rgba(171, 237, 241, 1);
+a.hvr-sweep-to-bottom:before {
+    background: rgba(171, 237, 241, 0.6);
     width: 100%;
     height: 100%;
     border-radius: 50%;
